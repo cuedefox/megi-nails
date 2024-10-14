@@ -1,0 +1,15 @@
+/* styles.css */
+.carousel {
+    height: 100vh; /* Ocupar toda la altura de la ventana */
+}
+
+.carousel-inner img {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho */
+    height: 100%; /* Hacer que la imagen ocupe toda la altura */
+    object-fit: cover; /* Ajustar la imagen sin distorsión */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para los controles */
+}

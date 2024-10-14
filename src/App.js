@@ -1,10 +1,11 @@
 import { Footer } from "./containers/Footer";
 import { MainContainer } from "./containers/MainContainer";
-import { Navbar } from "./containers/Navbar";
+import { NavBar } from "./containers/NavBar";
+import "../src/styles/styles.scss";
 
 function App() {
   return <>
-      <Navbar />
+      <NavBar />
       <MainContainer />
       <Footer />
     </>

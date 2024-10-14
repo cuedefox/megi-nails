@@ -1,9 +1,10 @@
 import React from "react";
+import { Carousel } from "../components/Carousel";
 
 export const MainContainer = () => {
     return (
         <main>
-            <h1>Megi Nails</h1>
+            <Carousel />
         </main>
     );
 }
