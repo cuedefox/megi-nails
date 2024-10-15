@@ -1,11 +1,11 @@
 /* styles.css */
 .carousel {
-    height: 100vh; /* Ocupar toda la altura de la ventana */
+    height: calc(100vh - 68.5px); /* Ocupar toda la altura de la ventana */
 }
 
 .carousel-inner img {
     width: 100%; /* Hacer que la imagen ocupe todo el ancho */
-    height: 100%; /* Hacer que la imagen ocupe toda la altura */
+    height: 20em;
     object-fit: cover; /* Ajustar la imagen sin distorsión */
 }
 
