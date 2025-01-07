@@ -24,7 +24,7 @@ export const NavBar = () => {
     setAnchorElNav(null);
   };
 
-  return <AppBar position="static">
+  return <AppBar position="static" sx={{ backgroundColor: '#CDC1FF' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -39,7 +39,7 @@ export const NavBar = () => {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: '#2A3335',
               textDecoration: 'none',
             }}
           >
@@ -53,7 +53,7 @@ export const NavBar = () => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              color="#2A3335"
             >
               <MenuIcon />
             </IconButton>
@@ -93,11 +93,11 @@ export const NavBar = () => {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: '#2A3335',
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Megi Nails
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end' }}>
             {pages.map((page) => (
