@@ -1,5 +1,5 @@
 export const AboutMe = () => {
-    return <>
+    return <div className="about-me-container common-container">
         <h2>Sobre mí</h2>
-    </>
+    </div>
 }

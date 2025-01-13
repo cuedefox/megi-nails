@@ -8,3 +8,13 @@ $color1: #BFECFF;
 $color2: #CDC1FF;
 $color3: #FFF6E3;
 $color4: #FFCCEA;
+
+.common-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    padding: 2rem;
+  }
+}
