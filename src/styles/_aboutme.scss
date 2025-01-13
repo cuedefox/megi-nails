@@ -1,0 +1,14 @@
+.about-me-container {
+    div {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 5rem;
+        padding: 5rem;
+        img {
+            width: 20rem;
+            height: 20rem;
+            border-radius: 14rem;
+        }
+    }
+}
